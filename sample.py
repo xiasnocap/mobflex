@@ -10,7 +10,7 @@ from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, Lif
 from mobanzu import Mobanzu
 import requests, uvloop, json, threading, asyncio, livejson
 
-client = LINE("YOUR_EMAIL", "YOUR_PASSWORD")
+client = LINE("robertghanim582@icloud.com", "36091vwz")
 client.log("Auth Token : " + str(client.authToken))
 
 clientProfile = client.getProfile()
